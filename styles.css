@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ddd;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .important-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .important-btn:hover {
+    background-color: #555;
+  }
+
+/* Below is all formatting for 'minutes.html' */
+
+  #secretary-container {
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #notes-list {
+    justify-content: left;
+    align-items: left;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .note {
+    justify-content: left;
+    align-items: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .note .timestamp {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  #input-container {
+    justify-content: left;
+    align-items: left;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  #note-input {
+    justify-content: left;
+    align-items: left;
+    width: 400px;
+    height: 100px;
+    resize: vertical;
+    margin-bottom: 10px;
+  }
