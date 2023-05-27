@@ -15,11 +15,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
+    display: flex; /* Add this to create a flex container */
   }
   
   nav ul li {
-    display: inline-block;
     margin-right: 10px;
+  }
+  
+  nav ul li:last-child {
+    margin-left: auto; /* Align the last tab to the right */
   }
   
   nav ul li a {
@@ -53,9 +57,9 @@ body {
   .important-btn:hover {
     background-color: #555;
   }
-
-/* Below is all formatting for 'minutes.html' */
-
+  
+  /* Below is all formatting for 'minutes.html' */
+  
   #secretary-container {
     padding: 10px;
     font-weight: bold;
@@ -98,3 +102,4 @@ body {
     resize: vertical;
     margin-bottom: 10px;
   }
+  
