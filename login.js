@@ -13,8 +13,8 @@ loginForm.addEventListener('submit', function(event) {
   if (username === 'mathewreis' && password === 'Mat102509!') {
     alert('Login successful!');
     // Redirect to another page after successful login
-    window.location.href = 'https://github.com/floydsg/floydsg.github.io';
+    window.location.href = 'https://floyd.on.fleek.co/adminviewer.html';
   } else {
-    alert('Login failed. Please try again.');
+    alert('Username/Password incorrect. Please try again.');
   }
 });
