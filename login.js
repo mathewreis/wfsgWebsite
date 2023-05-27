@@ -1,20 +1,20 @@
-// Get form element
-const loginForm = document.getElementById('login-form');
-
-// Add submit event listener to the form
-loginForm.addEventListener('submit', function(event) {
-  event.preventDefault();
-
-  // Get username and password input values
-  const username = document.getElementById('username').value;
-  const password = document.getElementById('password').value;
-
-  // Perform login authentication (example code)
-  if (username === 'mathewreis' && password === 'Mat102509!') {
-    alert('Login successful!');
-    // Redirect to another page after successful login
-    window.location.href = 'https://floyd.on.fleek.co/adminviewer.html';
-  } else {
-    alert('Username/Password incorrect. Please try again.');
+function login() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+  
+    // You can customize the login logic here, e.g., validate against a server-side database
+    if (username === "mathewreis" && password === "Mat102509!") {
+      document.getElementById("loginContainer").style.display = "none";
+      document.getElementById("contentContainer").style.display = "block";
+    } else {
+      alert("Invalid username or password");
+    }
   }
-});
+  
+  function logout() {
+    document.getElementById("username").value = "";
+    document.getElementById("password").value = "";
+    document.getElementById("loginContainer").style.display = "block";
+    document.getElementById("contentContainer").style.display = "none";
+  }
+  
