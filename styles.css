@@ -10,6 +10,10 @@ body {
     padding: 20px;
   }
 
+  center {
+    text-align: center;
+  }
+
   .footer {
     position: fixed;
     left: 0;
