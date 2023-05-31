@@ -13,7 +13,7 @@ loginForm.addEventListener('submit', function(event) {
   if (username === 'mathewreis' && password === 'Mat102509!') {
     alert('Login successful!');
     // Redirect to another page after successful login
-    window.location.href = 'https://floyd.on.fleek.co/adminviewer.html';
+    window.location.href = 'https://floyd.on.fleek.co/directory.html';
   } else {
     alert('Username/Password is incorrect. Please try again.');
   }
